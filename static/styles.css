@@ -1,0 +1,99 @@
+* {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 1200;
+}
+.content{
+	max-width: 1000px;
+	margin: auto;
+	padding: 40px;
+	background:#F0F8FF;
+	border-radius: 15px 50px;
+
+}
+
+.header_right {
+		overflow:0;
+		display: inline-block;
+
+}
+.header_left{
+	text-align: right;
+}
+.top-content {
+	  background:#2c73bb8f;
+	  padding: 10px;
+	  height: 100px;
+		border-radius: 15px;
+}
+
+.bottom-content {
+	  background-color: #f1f1f1;
+	  padding: 10px;
+		border-radius: 15px;
+		margin: 3px;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.top-content-menu {
+	  background-color: #ddd;
+	  padding: 10px;
+	  height: 150px;
+		border-radius: 15px;
+		margin: 3px;
+
+}
+
+.top-content-menu img{
+	width: 100px;
+	border-radius: 50%;
+
+
+}
+
+.top-content-menu figure{
+	text-align:right;
+}
+.top-content-menu h1{
+float: left;
+}
+
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+	border-radius: 15px;
+	margin: 3px;
+/*  height: 300px;   */
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+button{
+	margin: 5px;
+	border-radius: 15px;
+}
+textarea{
+	  overflow: auto;
+    display: block;
+}
+strong{
+	background: #47b14f80
+}

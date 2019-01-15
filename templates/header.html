@@ -1,0 +1,17 @@
+
+<div class="header_right">
+
+
+		<a href="{{url_for('showRestaurants')}}">
+			<span  aria-hidden="true"></span>Show All Restaurants
+		</a>
+		</div>
+		<div class="header_left">
+
+					{%if 'username' not in session %}
+			<a href="{{url_for('showLogin')}}" style="text-align">Click Here to Login </a>
+			{% else %}
+			<a  href="{{url_for('disconnect')}}" style="text-align" >Logout </a>
+			{% endif %}
+
+	</div>
